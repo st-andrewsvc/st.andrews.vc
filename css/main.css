@@ -1,0 +1,438 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4%;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.list li {
+    list-style-type: none; 
+    display: inline-block;
+}
+
+.list li a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+}
+
+.list li a:hover{
+    font-weight: bolder;
+    background-color: dimgrey;
+}
+
+body {
+    background-color: black;
+}
+
+.name {
+    padding: 150px 150px;
+    padding-top: 200px;
+    height: 400px;
+    background-image: linear-gradient(rgb(4, 4, 51), rgb(10, 10, 129));
+    background-size: 100% 100%;
+}
+
+main .name h1 {
+    font-weight: bolder;
+    color: white;
+    width: 600px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main .name p {
+    color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+
+main .name button {
+    background-color: orange;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+main .name button a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .name button a:hover{
+    font-weight: bold;
+}
+
+.statement {
+    background-size: 100% 100%;
+    height: 500px;
+    background-image: linear-gradient(rgb(10, 10, 129),rgb(40, 181, 236));
+    padding: 90px 100px;
+}
+
+.statement h4{
+    color: orange;
+    font-size: larger;
+}
+
+.statement p{
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    line-height: 30pt;
+    
+}
+
+.partner {
+    height: 780px;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgb(40, 181, 236),white,white);
+    padding: 90px 100px;
+}
+
+.partner h4{
+    color: orange;
+    font-size: larger;
+}
+
+.partner .texttext {
+    font-size: xx-large;
+    font-weight: bold;
+    width: 800px;
+    color: rgb(7, 7, 58);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    line-height: 30pt;
+    
+}
+
+.flex-container {
+    display: flex;
+    height: 460px;
+}
+
+.flex-container > div {
+    background-color: white;
+    width: 400px;
+    
+}
+
+.flex-container > div h3{
+    color: black;
+}
+
+.flex-container .text{
+    font-size: large;
+    font-weight: 800px;
+    width: 250px;
+    color: rgb(114, 112, 112);
+    line-height: normal;
+}
+
+.flex-container .text .company {
+    text-decoration: underline rgb(114, 112, 112);
+    color:rgb(114, 112, 112);
+    font-style: italic;
+}
+
+.flex-container .text .company:hover {
+    font-weight: bold;
+}
+
+.flex-container .a {
+    position: auto;
+    margin-top: 140px;
+    margin-left: 400px;
+}
+
+.flex-container .b{
+    position: auto;
+    margin-top: 220px;
+}
+
+.constitution {
+    height: 600px;
+    left: 0;
+    right: 0;
+    background-color: teal;
+    padding: 90px 100px;
+}
+
+.constitution1 {
+    background-color: teal;
+    display: flex;
+    margin-top: 70px;
+    padding: 35px;
+}
+
+.constitution h4{
+    color: orange;
+    font-size: larger;
+    width: 500px;
+}
+
+.constitution1 .todo h3 {
+    color:rgb(7, 7, 58);
+    width: 250px;
+    display: inline, center;
+    margin-top: 40px;
+}
+
+.constitution1 img {
+    border-radius: 10px;
+}
+
+.todo {
+    padding:20px;
+}
+
+.constitution button {
+    background-color: white;
+    border: solid rgb(47, 211, 223);
+    padding: 25px 120px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-left: 470px;
+}
+
+.constitution button a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(14, 14, 32);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.constitution button a:hover {
+    font-weight: bold;
+}
+
+.committee {
+    height: 800px;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(teal,rgb(8, 77, 77),rgb(4, 4, 51));
+    padding: 90px 100px;
+}
+
+.committee h4{
+    color: orange;
+    font-size: larger;
+    margin-top: 100px;
+}
+
+.committee p{
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    line-height: 30pt;
+}
+
+.committee1 .position h2 {
+    color: white;
+    display: inline,center;
+}
+
+.committee1 .position h3 {
+    color:grey;
+    width: 250px;
+    display: inline,center;
+}
+
+.committee1 {
+    text-align: center;
+}
+
+.fa {
+    padding: 30px;
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 2px;
+    border-radius: 40%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.committee1 .position{
+    padding-right: 150px;
+}
+
+.committee1{
+    display: flex;
+    margin: 80px;
+    padding-right: 200px;
+}
+
+main .join button {
+    background-color: orange;
+    border: none;
+    padding: 15px 80px;
+    border-radius: 10px;
+}
+
+main .join button a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .join button a:hover{
+    font-weight: bold;
+}
+
+.join {
+    background-color: rgb(4, 4, 51);
+    left: 0;
+    right: 0;
+    padding: 80px 90px;
+    text-align: center;
+}
+
+.join h2 {
+    color: white;
+    font-size: xx-large;
+}
+
+.join p {
+    color: grey;
+    font-size: x-large;
+    font-weight: 800;
+    padding: 100px 200px;
+}
+
+.right .fa {
+    padding: 10px;
+    font-size: 12px;
+    width: 30px;
+    text-decoration: none;
+    text-align: center;
+    margin: 2px 2px;
+    border: solid black 0.5px;
+}
+
+.right .fa:hover {
+    opacity: 0.7;
+}
+
+.right .fa-facebook {
+    background: white;
+    color: black;
+}
+
+.right .fa-linkedin {
+    background: white;
+    color: black;
+}
+
+.right .fa-instagram {
+    background: white;
+    color: black;
+}
+
+.right .fa-google {
+    background: white;
+    color: black;
+}
+
+footer {
+    width:100%;
+}
+
+footer * {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+    height: 300px;
+}
+
+.left {
+    width: 25%;
+    background-color: white;
+}
+  
+.right {
+    width: 75%;
+    background-color: white;
+}
+
+footer p {
+    color: black;
+}
+
+footer .left img {
+    display: block;
+    margin-top: 10px;
+    display: center;
+}
+
+.begin .end{
+    display: inline-flex;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer p{
+    font-size: small;
+    color: grey;
+    margin-left: 10px;
+}
+
+footer .right hr {
+    color: grey;
+}
+
+.begin .end p{
+    color: black;
+    padding-left: 15px;
+    font-size: small;
+}
+
